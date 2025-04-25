@@ -40,7 +40,7 @@ For each cardiovascular outcome of interest—Heart Failure, Atrial Fibrillation
 ---
 
 ## 🖼️ UI Screenshot 
-![UI Screenshot Placeholder](./Figure8.bmp)
+![UI Screenshot Placeholder](./UI.png)
 
 > *Figure: Screenshot of the interactive Shiny App used for phenotypic mapping and personalized cardiovascular risk prediction. The interface includes: (1) a central 2D scatterplot representing the phenotypic continuum, where users can click to select a representative patient sample; (2) dynamic sliders on the left for modifying clinical and imaging-based variables; and (3) three cumulative incidence plots on the right estimating individual risk trajectories over time for atrial fibrillation (AF), heart failure (HF), and major adverse cardiovascular events (MACE). Risk scores for 5-year prediction are displayed beneath each plot. Adjusted sample positions and updated risk outputs are computed in real-time using the trained phenomapping and survival models.*
 
