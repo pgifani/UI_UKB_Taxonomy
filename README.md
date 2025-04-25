@@ -54,16 +54,19 @@ For each cardiovascular outcome of interest—Heart Failure, Atrial Fibrillation
 - **Fine-Gray survival models** for risk estimation
 
 ---
+### Shiny App Directory (internal only)
 
-## 💬 Usage
-
-1. Run the app with `shiny::runApp("ui_app.r")`.
-2. Click on any point in the scatterplot to select a sample.
-3. Modify features using sliders.
-4. Observe updated phenotypic position and real-time cardiovascular risk plots.
+All source files for the interactive Shiny App are located in the following shared drive:
+```
+Z:\pi514\input_for_ddrtree_ukbb\ukbb_inputs_final\UKB_taxonomy_UI
+```
+This includes:
+- `ui_app.r`: Main file for launching the Shiny application
+- `__functions.R`: Supporting functions for data adjustment and modeling
+- `models/`: Contains all pre-trained models and min/max scaling references
+- `synthetic_dataset_500_samples.csv`: synthetic data file used for demonstration and model input (you can change witn real_data_all.csv or real_data_5000_samples.csv)
 
 ---
-
 ## 🧪 Authors & Contributions
 This UI was developed as part of the UK Biobank phenomapping framework.
 
